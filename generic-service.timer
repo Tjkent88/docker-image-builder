@@ -1,0 +1,9 @@
+[Unit]
+Description=My Scheduled Service Timer to Run at 9pm on Saturdays.
+
+[Timer]
+OnCalendar=Sat *-*-* 21:00:00
+Persistent=true
+
+[Install]
+WantedBy=timers.target
