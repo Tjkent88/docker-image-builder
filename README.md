@@ -4,7 +4,7 @@ This builds docker images based on repos and publishes them to docker hub
 
 # Usage 
 
-./build-image.sh <repo-with-docker-file> <repo-name>
+./build-image.sh {{repo-with-docker-file}} {{repo-name}}
   
 
 It will create a tmp folder in your current directory pull the repo tag it with today's date and latest and the publish both to docker hub. 
