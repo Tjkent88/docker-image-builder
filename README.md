@@ -1,6 +1,6 @@
 # docker-image-builder
 
-This builds docker images based on repos and publishes them to docker hub
+This builds docker images based on repos and publishes them to docker hub. I use it in my homelab for weekly builds on docker containers instead of using runners or actions. 
 
 # Usage 
 
