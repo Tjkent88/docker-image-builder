@@ -16,7 +16,7 @@ DATE=$(date +%Y%m%d%H%M%S)
 docker login
 
 # Build the Docker image
-docker build -t $IMAGE_NAME:$DATE .
+docker build -t $DOCKERHUB_USERNAME/$IMAGE_NAME:$DATE .
 
 # Push the Docker image with the date tag
 docker push $DOCKERHUB_USERNAME/$IMAGE_NAME:$DATE
