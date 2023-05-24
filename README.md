@@ -1,6 +1,8 @@
 # docker-image-builder
 
-This builds docker images based on repos and publishes them to docker hub. I use it in my homelab for weekly builds on docker containers instead of using runners or actions. 
+This builds docker images based on repos and publishes them to docker hub. I use it in my homelab for weekly builds on docker containers instead of using runners or actions.
+
+I added the systemd builder because I was playing with the timer recently and wanted to implement.
 
 # Usage 
 
