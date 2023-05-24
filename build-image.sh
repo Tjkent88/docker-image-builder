@@ -10,7 +10,7 @@ git clone $REPO_URL ~tkent/tmp/
 cd ~tkent/tmp/
 
 # Get the current date and time
-DATE=$(date +%Y%m%d%H%M%S)
+DATE=$(date +%Y-%m-%d)
 
 # Confirm docker is logged in
 docker login
